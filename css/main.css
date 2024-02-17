@@ -1,4 +1,26 @@
 @charset "utf-8";
 body {
     background-color: #FFF3CF;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.btn {
+    /* [disabled]color: #0A1D56; */
+    background-color: #0A1D56;
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+
+    ;
+
+}
+.card #headingOne1 .mb-0 {
+    color: black;
+}
+
+
+
+.container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand.personal {
+    color: black;
+}
+.nav {
+
 }
