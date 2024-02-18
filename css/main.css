@@ -1,8 +1,12 @@
 @charset "utf-8";
 body {
-    background-color: #FFF3CF;
+    background-color: #F2EFE5;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
+.col-xl-4 .card.col-md-8.offset-md-2.col-lg-8.offset-xl-0.col-xl-12 .card-img-top.img-fluid {
+
+}
+
 .btn {
     /* [disabled]color: #0A1D56; */
     background-color: #0A1D56;
@@ -23,4 +27,15 @@ body {
 }
 .nav {
 
+}
+.card-body {
+}
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+    text-decoration: underline;
+}
+.card-img-top {
+    max-width: 200px;
+    height: 15vw;
+	object-fit: cover;
+	
 }
