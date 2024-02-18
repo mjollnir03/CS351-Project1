@@ -38,14 +38,14 @@
 </svg> Check Out</a>
           </div>
         </nav>
-        <h1 class="text-center my-4"><strong>Ellmaer Ranjber's MarketPlace&nbsp;</strong></h1>
+        <h1 class="text-center my-4"><strong>Ellmaer Ranjber's MarketPlace</strong></h1>
 <!-- TemplateBeginEditable name="body"-->
 <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
   
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active"> <img class="d-block mx-auto img-fluid" src="../images/download.jpg" alt="First slide" />
       <div class="carousel-caption">
-        <h1><strong>Fast and Free Shipping&nbsp;</strong></h1>
+        <h1><strong>Fast and Free Shipping</strong></h1>
         <h3><em>Greatest Deals Ever!</em></h3>
       </div>
     </div>
@@ -66,14 +66,14 @@
             <div style="background-color: #F2EFE5;" class="card border-dark offset-md-2 col-md-8 offset-xl-0 col-xl-12 mb-1"> <img class="card-img-top img-fluid mx-auto" src="../images/macbook.png" alt="Card image cap"/>
               <div class="card-body text-center">
                 <h5 class="card-title">Mac Book Pro</h5>
-                <p class="card-text">Get the New Mac Book Pro, and have it within just 2 days!&nbsp; &nbsp; &nbsp; &nbsp;</p>
+                <p class="card-text">Get the New Mac Book Pro, and have it within just 2 days!</p>
                 <a href="#" class="btn btn-primary">Prodcut Page</a> </div>
             </div>
           </div>
           <div class="col-xl-4">
             <div style="background-color: #F2EFE5;" class="card border-dark col-xl-12 col-md-8 offset-md-2 offset-xl-0"> <img class="card-img-top img-fluid mx-auto" src="../images/iphone.png" alt="Card image cap"/>
               <div class="card-body text-center">
-                <h5 class="card-title">Iphone 14 Pro Max&nbsp;</h5>
+                <h5 class="card-title">Iphone 14 Pro Max</h5>
                 <p class="card-text">Get the New Iphone 14 Pro Max, and have it within just 2 days!</p>
                 <a href="#" class="btn btn-primary">Prodcut Page</a> </div>
             </div>
@@ -82,7 +82,7 @@
         <div style="background-color: #F2EFE5;" class="card text-center col-xl-12 my-3 col-md-12 ">
           <div style="background-color: #e4e5e7;" class="card-header "> <strong> Browse our Entire Catalog! </strong></div>
           <div class="card-body" >
-            <h5 class="card-title">Want to see more products?&nbsp;</h5>
+            <h5 class="card-title">Want to see more products?</h5>
             <p class="card-text">Click the button below to see all of our producs!</p>
             <a href="../shop.html" class="btn btn-primary">Go To Catalog</a> </div>
           <div style="background-color: #e4e5e7;" class="card-footer "> 25 Amazing Products!</div>
