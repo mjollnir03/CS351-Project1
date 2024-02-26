@@ -13,7 +13,7 @@ body {
 }
 .container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
 
-    ;
+    
 
 }
 .card #headingOne1 .mb-0 {
@@ -34,8 +34,10 @@ body {
     text-decoration: underline;
 }
 .card-img-top {
-    max-width: 200px;
+    max-width: 240px;
     height: 15vw;
 	object-fit: cover;
 	
+}
+.text-cen {
 }
