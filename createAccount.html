@@ -47,46 +47,43 @@
       <form class="row g-3" id="registrationForm" onsubmit="return validateForm()">
         <div class="col-md-6">
           <label for="validationDefault01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationDefault01" value="John" required>
+          <input type="text" class="form-control" id="validationDefault01" value="John" required = "required" />
         </div>
         <div class="col-md-6">
           <label for="validationDefault02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationDefault02" value="Smith" required>
+          <input type="text" class="form-control" id="validationDefault02" value="Smith" required = "required" />
         </div>
         <div class="col-md-6">
           <label for="validationDefaultStreet" class="form-label">Street</label>
-          <input type="text" class="form-control" id="validationDefaultStreet" required>
+          <input type="text" class="form-control" id="validationDefaultStreet" required = "required" />
         </div>
         <div class="col-md-6">
           <label for="validationDefaultCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="validationDefaultCity" required>
+          <input type="text" class="form-control" id="validationDefaultCity" required = "required" />
         </div>
         <div class="col-md-3">
           <label for="validationDefaultState" class="form-label">State</label>
-          <select class="form-select" id="validationDefaultState" required>
-            <option selected disabled value="">Choose...</option>
+          <select class="form-select" id="validationDefaultState" required="required">
+            <option selected="selected" disabled="disabled" value="">Choose...</option>
             <option>California</option>
             <option>Other</option>
           </select>
         </div>
         <div class="col-md-3">
           <label for="validationDefaultZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="validationDefaultZip" required>
+          <input type="text" class="form-control" id="validationDefaultZip" required = "required" />
         </div>
         <div class="col-md-6">
           <label for="validationDefaultPhoneNumber" class="form-label">Phone Number</label>
-          <input type="tel" class="form-control" id="validationDefaultPhoneNumber" required>
+          <input type="tel" class="form-control" id="validationDefaultPhoneNumber" required = "required" />
         </div>
         <div class="col-md-6">
-          <label for="validationDefaultUsername" class="form-label">Username</label>
-          <div class="input-group">
-            <span class="input-group-text" id="inputGroupPrepend2">@</span>
-            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
-          </div>
+          <label for="validationDefaultEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="validationDefaultEmail" required="required" />
         </div>
         <div class="col-md-6">
           <label for="validationDefaultPassword" class="form-label">Password</label>
-          <input type="password" class="form-control" id="validationDefaultPassword" required>
+          <input type="password" class="form-control" id="validationDefaultPassword" required = "required" />
         </div>
         <div class="col-12 text-center mt-3">
           <button class="btn btn-primary" type="submit">Sign Up</button>
@@ -97,7 +94,27 @@
   </div>
 </div>
 	
-		  
+		  <script>
+  function validateForm() {
+    // Validate Email
+    var emailInput = document.getElementById("validationDefaultEmail").value;
+    if (!emailInput.includes("@")) {
+      alert("Please enter a valid email address with @ symbol.");
+      return false; // Prevent form submission
+    }
+
+    // Validate Password
+    var passwordInput = document.getElementById("validationDefaultPassword").value;
+    var passwordRegex = /^(?=.*[A-Z])(?=.*\d).{6,}$/; // Password must contain at least one uppercase letter and one digit, and be at least 6 characters long
+    if (!passwordRegex.test(passwordInput)) {
+      alert("Password must contain at least one uppercase letter and one digit.");
+      return false; // Prevent form submission
+    }
+    alert("Registration successful!");
+    return true;
+  }
+</script>
+
 		  <!-- InstanceEndEditable -->
 		  
 </div>
