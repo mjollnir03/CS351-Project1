@@ -45,7 +45,7 @@
 <div  class="container">
   <div class="row justify-content-center">
     <div class="col-sm-10 col-md-10 col-xl-10">
-      <div style="background-color: #F2EFE5" class="card"> <!-- TemplateBeginEditable name="EditRegion3" --><img src="../images/apple_watch.png" class="card-img-top mw-10 mx-auto"  alt="Product Image" /> <!-- TemplateEndEditable -->
+      <div style="background-color: #F2EFE5" class="card border-dark"> <!-- TemplateBeginEditable name="EditRegion3" --><img src="../images/apple_watch.png" class="card-img-top mw-10 mx-auto"  alt="Product Image" /> <!-- TemplateEndEditable -->
         <div class="card-body">
           <h5 class="card-title h2"><!-- TemplateBeginEditable name="EditRegio42" -->Title<!-- TemplateEndEditable --></h5>
           <p class="card-text"><!-- TemplateBeginEditable name="EditRegion5" --> Description <!-- TemplateEndEditable --> </p>

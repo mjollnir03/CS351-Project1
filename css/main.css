@@ -34,9 +34,9 @@ body {
     text-decoration: underline;
 }
 .card-img-top {
-    max-width: 240px;
-    height: 15vw;
-	object-fit: cover;
+/*    max-width: 240px;*/
+    min-height: 15vw;
+/*	object-fit: cover;*/
 	
 }
 .text-cen {
