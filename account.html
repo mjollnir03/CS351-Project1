@@ -65,7 +65,7 @@
 			  function validateForm() {
 				errfound = false;
 				if (!ValidEmail(document.getElementById('validationDefaultUsername').value))
-				  error(document.getElementById('validationDefaultUsername'), 'Please enter a valid username (email address).');
+				  error(document.getElementById('validationDefaultUsername'), 'Please enter a valid email address.');
 				if (!ValidPassword(document.getElementById('validationDefaultPassword').value))
 				  error(document.getElementById('validationDefaultPassword'), 'Password must be at least 8 characters long.');
 				return !errfound;
@@ -88,9 +88,9 @@
       <h2 class="text-center"> <em>Login Form</em></h2>
       <form class="row g-3" id="loginForm" onsubmit="return validateForm()">
         <div class="col-md-6">
-          <label for="validationDefaultUsername" class="form-label">Username</label>
+          <label for="validationDefaultUsername" class="form-label">Email</label>
           <div class="input-group">
-            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+           
             <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required="required" />
           </div>
         </div>
