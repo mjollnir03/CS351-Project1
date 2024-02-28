@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/product.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -38,81 +38,25 @@
 </svg> Check Out</a>
           </div>
         </nav>
+  	    
+		  
         <h1 class="text-center my-4"><strong>Ellmaer Ranjber's MarketPlace</strong></h1>
-<!-- InstanceBeginEditable name="body" -->
-		<script>
-			  // Function to validate the length of an item
-			  function ValidLength(item, len) {
-				return (item.length >= len);
-			  }
-
-			  // Function to validate an email address
-			  function ValidEmail(item) {
-				if (!ValidLength(item, 5)) return false;
-				if (item.indexOf('@') == -1) return false;
-				return true;
-			  }
-
-			  // Function to validate the password length
-			  function ValidPassword(item) {
-				return ValidLength(item, 8);
-			  }
-
-			  // Global variable to catch errors
-			  var errfound = false;
-
-			  // Main Validate function
-			  function validateForm() {
-				errfound = false;
-				if (!ValidEmail(document.getElementById('validationDefaultUsername').value))
-				  error(document.getElementById('validationDefaultUsername'), 'Please enter a valid username (email address).');
-				if (!ValidPassword(document.getElementById('validationDefaultPassword').value))
-				  error(document.getElementById('validationDefaultPassword'), 'Password must be at least 8 characters long.');
-				return !errfound;
-				// true if there are no errors
-			  }
-
-			  function error(elem, text) {
-				// Abort if we already found an error
-				if (errfound) return;
-				window.alert(text);
-				elem.select();
-				elem.focus();
-				errfound = true;
-			  }
-		  </script>
-
-<div class="container">
+<p class="h1 text-center font-italic"> <!-- InstanceBeginEditable name="EditRegion2" -->Samsung S24 Ultra<!-- InstanceEndEditable --> </p>
+<div  class="container">
   <div class="row justify-content-center">
-    <div class="col-md-6">
-      <h2 class="text-center"> <em>Login Form</em></h2>
-      <form class="row g-3" id="loginForm" onsubmit="return validateForm()">
-        <div class="col-md-6">
-          <label for="validationDefaultUsername" class="form-label">Username</label>
-          <div class="input-group">
-            <span class="input-group-text" id="inputGroupPrepend2">@</span>
-            <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required="required" />
+    <div class="col-sm-10 col-md-10 col-xl-10">
+      <div style="background-color: #F2EFE5" class="card border-dark"> <!-- InstanceBeginEditable name="EditRegion3" --><img src="images/s24-ultra.png" class="card-img-top mw-10 mx-auto"  alt="Product Image" /> <!-- InstanceEndEditable -->
+        <div class="card-body">
+          <h5 class="card-title h2"><!-- InstanceBeginEditable name="EditRegio42" -->Samsung S24 Ultra<!-- InstanceEndEditable --></h5>
+          <p class="card-text"><!-- InstanceBeginEditable name="EditRegion5" --> The Samsung Galaxy S24 Ultra is the crown jewel of the S24 series, offering the most powerful features and a feature-rich experience. It boasts a massive 6.8-inch Dynamic AMOLED display with a smooth 120Hz refresh rate for lifelike visuals. The powerhouse Qualcomm Snapdragon 8 Gen 3 processor tackles demanding tasks with ease, while the 5000mAh battery keeps you powered through the day. Photography enthusiasts will love the revolutionary 200MP rear camera system, co-powered by AI for exceptional detail and low-light performance. The S24 Ultra also includes an integrated S Pen stylus, perfect for note-taking, creative tasks, and precise control. With its premium build quality, water resistance, and versatile feature set, the Samsung Galaxy S24 Ultra is a top contender for the best smartphone of the year. <!-- InstanceEndEditable --> </p>
+          <p class="card-text h2 mb-3"><!-- InstanceBeginEditable name="EditRegion6" -->$999<!-- InstanceEndEditable --> </p>
+          <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-6">
-          <label for="validationDefaultPassword" class="form-label">Password</label>
-          <input type="password" class="form-control" id="validationDefaultPassword" required="required" />
-        </div>
-        <div class="col-12 text-center mt-3">
-          <button class="btn btn-primary" type="submit">Login</button>
-        </div>
-      </form>
-      <p class="text-center mt-3">Don't have an account? <a href="createAccount.html">Sign up</a></p>
+      </div>
     </div>
-  </div>
 </div>
-
-
-
-		  
-		  <!-- InstanceEndEditable -->
-		  
-</div>
+	  </div>
   	</div>
   	
 
